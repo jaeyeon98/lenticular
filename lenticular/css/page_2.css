@@ -1,0 +1,79 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+
+
+/* font-family: 'Monsieur La Doulaise', cursive; */
+
+
+
+html{
+    background-color: #2A143D;
+}
+
+header{
+    margin-top:57px;
+    padding: 0 60px 0 60px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+header #head_num{
+    color: #FF4E36;
+    display: inline-block;
+}
+header #head_num .n_number{
+    font-size: 50px;
+    display: inline-block;
+}
+header #head_num .n_text{
+    font-size:30px;
+    display: inline-block;
+    margin-left: 40px;
+}
+header #center_logo{
+    display:inline-block;
+    width: 288px; height: 35px;
+}
+header #right_logo{
+    float: right;
+    display: block;
+    width: 32px; height: 27px;
+    /* margin-right: 58px; */
+}
+
+main .mainContent{
+    width: 1142px;
+    margin: 0 auto;
+}
+main .contentList{
+    /* width: 150px; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+main .clickContent{
+    width: 150px;
+}
+
+main .clickContent p{
+    display: block;
+    text-align: center;
+}
+main .clickContent .text_Kr{
+    color: #CEBBE1;
+    font-size: 30px;
+    margin-top: 22px;
+}
+
+main .clickContent .text_Eng{
+    color: #7950A3;
+    font-size: 40px;
+    font-family: 'Monsieur La Doulaise', cursive;
+}
+main .clickContent .keyImg{
+    width: 150px; 
+}
